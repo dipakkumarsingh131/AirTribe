@@ -3,12 +3,12 @@ export const demoData = [
       title: 'To Do',
       items: [
         {
-          title: 'Homework',
+          title: 'Task 1',
           description: 'Description 1',
           id: 'item-1'
         },
         {
-          title: 'House Chores',
+          title: 'Task 2',
           description: 'Description 2',
           id: 'item-2'
         }
@@ -20,12 +20,12 @@ export const demoData = [
       title: 'In Progress',
       items: [
         {
-          title: 'Assignment',
+          title: 'Task 3',
           description: 'Description 3',
           id: 'item-3'
         },
         {
-          title: 'Workout',
+          title: 'Task 4',
           description: 'Description 4',
           id: 'item-4'
         }
@@ -37,12 +37,12 @@ export const demoData = [
       title: 'Completed',
       items: [
         {
-          title: 'Study',
+          title: 'Task 5',
           description: 'Description 1',
           id: 'item-5'
         },
         {
-          title: 'Coding',
+          title: 'Task 6',
           description: 'Description 2',
           id: 'item-6'
         }
