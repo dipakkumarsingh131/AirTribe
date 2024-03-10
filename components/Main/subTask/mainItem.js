@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { GripVertical, EditIcon } from 'lucide-react'
+import { GripHorizontal, EditIcon } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 const MainItem = (props) => {
@@ -15,7 +15,7 @@ const MainItem = (props) => {
       <div className='flex items-center gap-[1rem]'>
         
         <div {...props.draggableProps?.dragHandleProps}>
-          <GripVertical
+          <GripHorizontal
             className='text-black/30'
           />
         </div>

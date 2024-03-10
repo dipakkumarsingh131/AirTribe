@@ -26,8 +26,8 @@ const NewItem = ({ handleAddItem }) => {
       <button onClick={() => {
         setOpen(true)
       }} className='w-full flex gap-[0.7vw] items-center'>
-        <Plus className='text-black/30' />
-        <p className='text-black/30'>New</p>
+        <Plus className='text-white/30' />
+        <p className='text-white/30'>New</p>
       </button>
       <SheetContent>
         <SheetHeader>

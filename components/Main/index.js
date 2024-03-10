@@ -146,6 +146,7 @@ const Main = (props) => {
                       <div
                         ref={provided.innerRef}
                         {...provided.draggableProps}
+                        className='bg-black p-2 rounded-xl md:rounded-md'
                       >
                         <Status
                           handleDeleteStatus={handleDeleteStatus}

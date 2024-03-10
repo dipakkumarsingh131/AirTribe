@@ -151,14 +151,14 @@ const ItemComponent = ({ id }) => {
   }
 
   return (
-    <div className='w-full min-h-[100vh] flex flex-col gap-[1rem] items-center justify-center'>
-      <h2 className='text-2xl font-medium text-black/70'>Item Detail</h2>
+    <div className='w-full min-h-[100vh] flex flex-col gap-[1rem] items-center justify-center bg-[#8f3f65]'>
+      <h2 className='text-2xl font-medium text-white/70'>Edit</h2>
       {
         item ? (
-          <form onSubmit={handleSave} className='w-[29vw] h-fit bg-white p-[1rem] rounded-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]'>
+          <form onSubmit={handleSave} className='w-[29vw] h-fit bg-black p-[1rem] rounded-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]'>
             <label
               htmlFor='title'
-              className='font-medium text-black/70'>Title</label>
+              className='font-medium text-white/70'>Title</label>
             <input
               name='title'
               className='w-full border border-black/30 focus:outline-none rounded-md px-[1rem] py-[0.5rem]  mb-[1rem]'
@@ -170,7 +170,7 @@ const ItemComponent = ({ id }) => {
             />
             <label
               htmlFor='description'
-              className='font-medium text-black/70'>Description</label>
+              className='font-medium text-white/70'>Description</label>
             <textarea
               name='description'
               className='w-full min-h-[10rem] border border-black/30 focus:outline-none rounded-md px-[1rem] py-[0.5rem]  mb-[1rem]'
@@ -182,7 +182,7 @@ const ItemComponent = ({ id }) => {
 
             <label
               htmlFor='status'
-              className='font-medium text-black/70'>Status</label>
+              className='font-medium text-white/70'>Status</label>
             <Select
               styles={{
                 control: (styles) => ({

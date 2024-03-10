@@ -23,13 +23,13 @@ const AddNewStatus = (props) => {
 
       <Plus onClick={() => {
         setOpen(true)
-      }} className='cursor-pointer text-black/30  hover:text-black/60' />
+      }} className='cursor-pointer text-white/30  hover:text-white/60' />
 
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Add New Status</SheetTitle>
           <SheetDescription>
-            Add a new status to your kanban board
+            Add a new status to your board
           </SheetDescription>
         </SheetHeader>
         <form onSubmit={e => {
